@@ -21,12 +21,13 @@
   <link href="../assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="../assets/demo/demo.css" rel="stylesheet" />
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js.map"></script>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
 
-  <script src=""></script> -->
-  <script src="./table.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.js">
-  </script>
-
+  <script src="./chartsjs/utils.js"></script>
+  <script src="./chartsjs/student_count_not_following_roadmap.js"></script>
 </head>
 
 <body class=" ">
@@ -122,7 +123,7 @@
     </div>
     <div class="main-panel">
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent   ">
+      <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent" >
         <div class="container-fluid">
           <div class="navbar-wrapper">
             <div class="navbar-toggle d-inline">
@@ -132,7 +133,7 @@
                 <span class="navbar-toggler-bar bar3"></span>
               </button>
             </div>
-            <a class="navbar-brand" href="#pablo">Table List</a>
+            <a class="navbar-brand" href="#pablo">GRAPH</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
             aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -144,15 +145,16 @@
             <ul class="navbar-nav ml-auto ">
               <div class="search-bar input-group">
                 <!-- <input type="text" class="form-control" placeholder="Search...">
-      <div class="input-group-addon"><i class="tim-icons icon-zoom-split"></i></div> -->
+                <i class="tim-icons icon-zoom-split"></i></div> -->
                 <button class="btn btn-link" id="search-button" data-toggle="modal" data-target="#searchModal"><i
                     class="tim-icons icon-zoom-split"></i></button>
                 <!-- You can choose types of search input -->
               </div>
               <li class="dropdown nav-item">
                 <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                  <div class="notification d-none d-lg-block d-xl-block"></div>
-                  <i class="tim-icons icon-sound-wave"></i>
+                  <div class="notification d-none d-lg-block d-xl-block" ></div>
+                  <!-- <i class="tim-icons icon-sound-wave"></i> -->
+                  Dropdown
                   <p class="d-lg-none">
                     New Notifications
                   </p>
@@ -161,43 +163,9 @@
                   <li class="nav-link">
                     <a href="#" class="nav-item dropdown-item">Mike John responded to your email</a>
                   </li>
-                  <li class="nav-link">
-                    <a href="#" class="nav-item dropdown-item">You have 5 more tasks</a>
-                  </li>
-                  <li class="nav-link">
-                    <a href="#" class="nav-item dropdown-item">Your friend Michael is in town</a>
-                  </li>
-                  <li class="nav-link">
-                    <a href="#" class="nav-item dropdown-item">Another notification</a>
-                  </li>
-                  <li class="nav-link">
-                    <a href="#" class="nav-item dropdown-item">Another one</a>
-                  </li>
                 </ul>
               </li>
-              <li class="dropdown nav-item">
-                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                  <div class="photo">
-                    <img src="../assets/img/anime3.png">
-                  </div>
-                  <b class="caret d-none d-lg-block d-xl-block"></b>
-                  <p class="d-lg-none">
-                    Log out
-                  </p>
-                </a>
-                <ul class="dropdown-menu dropdown-navbar">
-                  <li class="nav-link">
-                    <a href="#" class="nav-item dropdown-item">Profile</a>
-                  </li>
-                  <li class="nav-link">
-                    <a href="#" class="nav-item dropdown-item">Settings</a>
-                  </li>
-                  <div class="dropdown-divider"></div>
-                  <li class="nav-link">
-                    <a href="#" class="nav-item dropdown-item">Log out</a>
-                  </li>
-                </ul>
-              </li>
+          
               <li class="separator d-lg-none"></li>
             </ul>
           </div>
@@ -221,280 +189,47 @@
       <!-- End Navbar -->
       <div class="content">
         <div class="row">
-          <div class="col-md-12">
-            <div class="card ">
-              <div class="card-header">
-                <h4 class="card-title"> Simple Table</h4>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table tablesorter " id="">
-                    <thead class=" text-primary">
-                      <th>
-                        antecedents
-                      </th>
-                      <th>
-                        Country
-                      </th>
-                      <th>
-                        City
-                      </th>
-                      <th class="text-center">
-                        Salary
-                      </th>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>
-                          Dakota Rice
-                        </td>
-                        <td>
-                          Niger
-                        </td>
-                        <td>
-                          Oud-Turnhout
-                        </td>
-                        <td class="text-center">
-                          $36,738
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Minerva Hooper
-                        </td>
-                        <td>
-                          Curaçao
-                        </td>
-                        <td>
-                          Sinaai-Waas
-                        </td>
-                        <td class="text-center">
-                          $23,789
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Sage Rodriguez
-                        </td>
-                        <td>
-                          Netherlands
-                        </td>
-                        <td>
-                          Baileux
-                        </td>
-                        <td class="text-center">
-                          $56,142
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Philip Chaney
-                        </td>
-                        <td>
-                          Korea, South
-                        </td>
-                        <td>
-                          Overland Park
-                        </td>
-                        <td class="text-center">
-                          $38,735
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Doris Greene
-                        </td>
-                        <td>
-                          Malawi
-                        </td>
-                        <td>
-                          Feldkirchen in Kärnten
-                        </td>
-                        <td class="text-center">
-                          $63,542
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Mason Porter
-                        </td>
-                        <td>
-                          Chile
-                        </td>
-                        <td>
-                          Gloucester
-                        </td>
-                        <td class="text-center">
-                          $78,615
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Jon Porter
-                        </td>
-                        <td>
-                          Portugal
-                        </td>
-                        <td>
-                          Gloucester
-                        </td>
-                        <td class="text-center">
-                          $98,615
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+          <div class="col-12">
+            <div class="card card-chart">
+              <div class="card-header ">
+                <div class="row">
+                  <div class="col-sm-6 text-left">
+                    <!-- <h5 class="card-category">Total Shipments</h5>
+                    <h2 class="card-title">Performance</h2> -->
+                  </div>
+                  <div class="col-sm-6">
+
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-12">
-            <div class="card  card-plain">
-              <div class="card-header">
-                <h4 class="card-title"> Table on Plain Background</h4>
-                <p class="category"> Here is a subtitle for this table</p>
-              </div>
               <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table tablesorter " id="">
-                    <thead class=" text-primary">
-                      <th>
-                        Name
-                      </th>
-                      <th>
-                        Country
-                      </th>
-                      <th>
-                        City
-                      </th>
-                      <th class="text-center">
-                        Salary
-                      </th>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>
-                          Dakota Rice
-                        </td>
-                        <td>
-                          Niger
-                        </td>
-                        <td>
-                          Oud-Turnhout
-                        </td>
-                        <td class="text-center">
-                          $36,738
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Minerva Hooper
-                        </td>
-                        <td>
-                          Curaçao
-                        </td>
-                        <td>
-                          Sinaai-Waas
-                        </td>
-                        <td class="text-center">
-                          $23,789
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Sage Rodriguez
-                        </td>
-                        <td>
-                          Netherlands
-                        </td>
-                        <td>
-                          Baileux
-                        </td>
-                        <td class="text-center">
-                          $56,142
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Philip Chaney
-                        </td>
-                        <td>
-                          Korea, South
-                        </td>
-                        <td>
-                          Overland Park
-                        </td>
-                        <td class="text-center">
-                          $38,735
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Doris Greene
-                        </td>
-                        <td>
-                          Malawi
-                        </td>
-                        <td>
-                          Feldkirchen in Kärnten
-                        </td>
-                        <td class="text-center">
-                          $63,542
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Mason Porter
-                        </td>
-                        <td>
-                          Chile
-                        </td>
-                        <td>
-                          Gloucester
-                        </td>
-                        <td class="text-center">
-                          $78,615
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Jon Porter
-                        </td>
-                        <td>
-                          Portugal
-                        </td>
-                        <td>
-                          Gloucester
-                        </td>
-                        <td class="text-center">
-                          $98,615
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <div class="chart-area" >
+                  <!-- <canvas id="piechart_followers_vs_non_followers_per_department" data-json='{"chart_explode": [0.2, 0], "chart_seats": [6360, 13669], "chart_labels": ["RoadMap Followers", "Non-RoadMap Followers"], "colors": ["blue", "goldenrod"]}'></canvas> -->
+                  <!-- <canvas id="piechart_followers_vs_non_followers" data-json='{"chart_explode": [0.2, 0], "chart_seats": [6360, 13669], "chart_labels": ["RoadMap Followers", "Non-RoadMap Followers"], "colors": ["blue", "goldenrod"]}'></canvas> -->
+                  <canvas id="student_count_not_following_roadmap_subject_histogram"></canvas>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+     
       <footer class="footer">
         <div class="container-fluid">
           <nav>
             <ul>
               <li>
-                <a href="https://www.creative-tim.com">
-                  Creative Tim
+                <a href="./dashboard.html">
+                Home 
                 </a>
               </li>
               <li>
-                <a href="http://presentation.creative-tim.com">
-                  About Us
+                <a href="./butterfly.html">
+                 Butterfly Graph
                 </a>
               </li>
               <li>
-                <a href="http://blog.creative-tim.com">
-                  Blog
+                <a href="./table.html">
+                  Table CHart
                 </a>
               </li>
             </ul>
@@ -503,8 +238,8 @@
             ©
             <script>
               document.write(new Date().getFullYear())
-            </script> made with <i class="tim-icons icon-heart-2"></i> by
-            <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
+            </script> made by
+            <a href="#" target="_blank">Rhett</a> for a better web.
           </div>
       </footer>
     </div>
@@ -552,11 +287,7 @@
         </li>
       </ul>
     </div>
-
-    <canvas id="piechart_followers_vs_non_followers"
-      data-json="{&quot;chart_explode&quot;: [0.2, 0], &quot;chart_seats&quot;: [6360, 13669], &quot;chart_labels&quot;: [&quot;RoadMap Followers&quot;, &quot;Non-RoadMap Followers&quot;], &quot;colors&quot;: [&quot;blue&quot;, &quot;goldenrod&quot;]}"></canvas> 
   </div>
-
   <!--   Core JS Files   -->
   <script src="../assets/js/core/jquery.min.js"></script>
   <script src="../assets/js/core/popper.min.js"></script>
@@ -572,14 +303,10 @@
   <script src="../assets/js/black-dashboard.min.js?v=1.0.0" type="text/javascript"></script>
   <!-- Black Dashboard DEMO methods, don't include it in your project! -->
   <script src="../assets/demo/demo.js"></script>
-  <!-- <script src="./new.jsonp?callback=tableData" > -->
-  <!-- <script>
-    function tableData(data){
-      console.log(data)
-    }
-  </script> -->
+  <script src="app.js"></script>
+  <script src="butterfly.js"></script>
 
-  </script>
+
   <script>
     $(document).ready(function () {
       $().ready(function () {
@@ -691,7 +418,13 @@
       });
     });
   </script>
+  <script>
+    $(document).ready(function () {
+      // Javascript method's body can be found in assets/js/demos.js
+      demo.initDashboardPageCharts();
 
+    });
+  </script>
 </body>
 
 </html>

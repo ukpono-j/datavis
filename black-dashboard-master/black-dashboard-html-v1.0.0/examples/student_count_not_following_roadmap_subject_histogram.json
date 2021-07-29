@@ -1,0 +1,5654 @@
+{
+  "columns": [
+    "TERM",
+    "PROXYID",
+    "DEPARTMENT",
+    "PLAN CODE",
+    "MAJOR",
+    "SUBJECT_NUMBER",
+    "COUNT"
+  ],
+  "index": [
+    621, 593, 589, 588, 583, 571, 570, 569, 568, 563, 556, 555, 554, 553, 552,
+    551, 521, 492, 480, 157, 469, 465, 464, 450, 446, 445, 237, 291, 594, 595,
+    620, 608, 609, 603, 615, 610, 616, 601, 602, 614, 619, 617, 618, 611, 276,
+    235, 226, 290, 289, 549, 550, 225, 236, 155, 253, 522, 520, 519, 515, 514,
+    513, 512, 511, 510, 484, 485, 277, 156, 523, 254, 457, 585, 604, 605, 456,
+    586, 587, 600, 599, 584, 613, 606, 612, 454, 607, 455, 518, 447, 448, 449,
+    517, 222, 451, 481, 482, 483, 590, 591, 592, 598, 516, 452, 477, 478, 223,
+    224, 468, 467, 466, 479, 596, 163, 597, 161, 160, 159, 158, 531, 530, 529,
+    453, 162, 402, 493, 494, 495, 496, 401, 400, 403, 544, 541, 542, 543, 545,
+    546, 547, 567, 566, 565, 564, 548, 13, 14, 15, 528, 572, 573, 288, 287, 286,
+    284, 574, 393, 285, 391, 576, 575, 505, 11, 392, 506, 508, 509, 507, 524,
+    525, 526, 527, 389, 390, 12, 462, 582, 581, 562, 463, 580, 460, 578, 577,
+    461, 459, 458, 561, 579, 560, 279, 558, 280, 282, 491, 490, 489, 488, 487,
+    486, 283, 394, 395, 396, 397, 398, 399, 278, 557, 221, 220, 219, 218, 217,
+    216, 559, 281, 475, 186, 185, 184, 183, 182, 181, 180, 471, 472, 473, 474,
+    476, 470, 166, 164, 499, 498, 167, 500, 501, 502, 503, 504, 497, 168, 165,
+    170, 228, 176, 177, 178, 169, 179, 227, 229, 230, 231, 175, 234, 171, 172,
+    173, 232, 233, 174, 532, 533, 534, 536, 535, 538, 540, 537, 539, 326, 325,
+    319, 323, 317, 322, 321, 318, 320, 324, 330, 328, 363, 362, 361, 360, 359,
+    357, 356, 355, 327, 354, 337, 336, 335, 334, 333, 332, 331, 329, 353, 358,
+    0, 9, 1, 2, 3, 4, 5, 6, 7, 8, 10, 339, 338, 252, 340, 250, 247, 341, 251,
+    342, 347, 344, 345, 346, 248, 348, 349, 350, 343, 249, 352, 243, 351, 238,
+    246, 245, 239, 244, 240, 242, 241, 102, 103, 104, 110, 115, 105, 106, 108,
+    109, 111, 107, 101, 114, 113, 112, 100, 261, 275, 274, 273, 272, 271, 270,
+    269, 268, 266, 265, 264, 263, 255, 256, 257, 258, 259, 260, 267, 262, 302,
+    98, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92,
+    93, 94, 95, 96, 97, 99, 301, 310, 388, 367, 368, 370, 371, 372, 373, 374,
+    375, 376, 366, 377, 379, 380, 381, 382, 383, 384, 385, 386, 387, 378, 365,
+    369, 292, 303, 304, 305, 306, 307, 308, 364, 300, 311, 312, 313, 309, 315,
+    314, 294, 295, 296, 293, 298, 299, 316, 297, 192, 215, 214, 213, 187, 188,
+    189, 190, 191, 193, 196, 195, 201, 202, 204, 205, 206, 207, 208, 209, 203,
+    211, 212, 200, 199, 198, 197, 194, 210, 127, 126, 125, 124, 122, 118, 120,
+    119, 117, 116, 128, 121, 129, 123, 131, 154, 153, 152, 151, 150, 130, 148,
+    147, 146, 145, 144, 143, 149, 142, 132, 133, 134, 136, 137, 135, 139, 140,
+    141, 138, 424, 419, 408, 423, 422, 421, 420, 418, 412, 416, 415, 414, 413,
+    409, 411, 426, 410, 417, 427, 425, 429, 405, 404, 406, 444, 443, 442, 441,
+    440, 439, 438, 428, 407, 430, 431, 432, 433, 434, 435, 436, 437, 70, 27, 28,
+    29, 30, 35, 32, 33, 34, 26, 31, 25, 21, 23, 22, 36, 20, 19, 18, 17, 16, 73,
+    74, 24, 71, 37, 39, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56,
+    38, 55, 53, 52, 51, 50, 49, 48, 47, 46, 45, 72, 43, 42, 41, 40, 54, 44
+    
+  ],
+  "data": [
+    [
+      2158,
+      6100029253,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "NSM 12A",
+      1
+    ],
+    [
+      2158,
+      6100007455,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12F",
+      1
+    ],
+    [
+      2158,
+      6100008202,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 40A",
+      1
+    ],
+    [
+      2158,
+      6100007071,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ASTR 4C",
+      1
+    ],
+    [
+      2158,
+      6100025184,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "SOC 3",
+      1
+    ],
+    [
+      2158,
+      6100029167,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HONR 199",
+      1
+    ],
+    [
+      2158,
+      6100021243,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "PHOT 11",
+      1
+    ],
+    [
+      2158,
+      6100005590,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "PHYS 10",
+      1
+    ],
+    [
+      2158,
+      6100003986,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "RPTA 32",
+      1
+    ],
+    [
+      2158,
+      6100003969,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10",
+      1
+    ],
+    [
+      2158,
+      6100011684,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 30",
+      1
+    ],
+    [
+      2158,
+      6100021074,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "GEOL 7",
+      1
+    ],
+    [
+      2158,
+      6100021074,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ATIC 61",
+      1
+    ],
+    [
+      2158,
+      6100022306,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "SOC 1",
+      1
+    ],
+    [
+      2158,
+      6100010334,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 32",
+      1
+    ],
+    [
+      2158,
+      6100002812,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ATIC 63",
+      1
+    ],
+    [
+      2158,
+      6100027935,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ACCY 1",
+      1
+    ],
+    [
+      2158,
+      6100016793,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "GEOL 8",
+      1
+    ],
+    [
+      2158,
+      6100024485,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ANTH 13",
+      1
+    ],
+    [
+      2158,
+      6100000140,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "CSC 20",
+      1
+    ],
+    [
+      2158,
+      6100007990,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CE 1",
+      1
+    ],
+    [
+      2158,
+      6100026458,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENVS 11",
+      1
+    ],
+    [
+      2158,
+      6100016793,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ECON 1A",
+      1
+    ],
+    [
+      2158,
+      6100000664,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ID 21",
+      1
+    ],
+    [
+      2158,
+      6100000625,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 29L",
+      1
+    ],
+    [
+      2158,
+      6100000625,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 29A",
+      1
+    ],
+    [
+      2158,
+      6100000356,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ALS 54A",
+      1
+    ],
+    [
+      2158,
+      6100013254,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 2",
+      1
+    ],
+    [
+      2158,
+      6100007455,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "PHIL 21",
+      1
+    ],
+    [
+      2158,
+      6100007537,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ALS 96",
+      1
+    ],
+    [
+      2158,
+      6100029244,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "DNCE 6",
+      1
+    ],
+    [
+      2158,
+      6100009848,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CRJ 2",
+      1
+    ],
+    [
+      2158,
+      6100010273,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 5",
+      1
+    ],
+    [
+      2158,
+      6100007796,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "THEA 1",
+      1
+    ],
+    [
+      2158,
+      6100019426,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "GEOL 10L",
+      1
+    ],
+    [
+      2158,
+      6100011684,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 1",
+      1
+    ],
+    [
+      2158,
+      6100016793,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "GPHD 5",
+      1
+    ],
+    [
+      2158,
+      6100021074,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "KINS 21",
+      1
+    ],
+    [
+      2158,
+      6100007796,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 70",
+      1
+    ],
+    [
+      2158,
+      6100019426,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "GEOL 10",
+      1
+    ],
+    [
+      2158,
+      6100028223,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "PHIL 127",
+      1
+    ],
+    [
+      2158,
+      6100027935,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 24",
+      1
+    ],
+    [
+      2158,
+      6100028223,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 10",
+      1
+    ],
+    [
+      2158,
+      6100011955,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ASTR 4B",
+      1
+    ],
+    [
+      2158,
+      6100018747,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "PSYC 2",
+      2
+    ],
+    [
+      2158,
+      6100017769,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MLSK 7B",
+      2
+    ],
+    [
+      2158,
+      6100020958,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ETHN 98",
+      2
+    ],
+    [
+      2158,
+      6100026458,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "INTD 20",
+      2
+    ],
+    [
+      2158,
+      6100007870,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "INTD 20",
+      2
+    ],
+    [
+      2158,
+      6100002751,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "GNST 21",
+      2
+    ],
+    [
+      2158,
+      6100020883,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "GNST 21",
+      2
+    ],
+    [
+      2158,
+      6100000625,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 98",
+      2
+    ],
+    [
+      2158,
+      6100029980,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MLSK 7B",
+      2
+    ],
+    [
+      2158,
+      6100000664,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "PHIL 4",
+      2
+    ],
+    [
+      2158,
+      6100005898,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 4",
+      2
+    ],
+    [
+      2158,
+      6100023242,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "FORL 21",
+      2
+    ],
+    [
+      2158,
+      6100027387,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "PHOT 20",
+      2
+    ],
+    [
+      2158,
+      6100003986,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "PHOT 20",
+      2
+    ],
+    [
+      2158,
+      6100009008,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 11",
+      2
+    ],
+    [
+      2158,
+      6100001867,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 11",
+      2
+    ],
+    [
+      2158,
+      6100018416,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ART 3A",
+      2
+    ],
+    [
+      2158,
+      6100007537,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ART 3A",
+      2
+    ],
+    [
+      2158,
+      6100029430,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "GOVT 35",
+      2
+    ],
+    [
+      2158,
+      6100001742,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "GOVT 35",
+      2
+    ],
+    [
+      2158,
+      6100018177,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 6",
+      2
+    ],
+    [
+      2158,
+      6100018747,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 6",
+      2
+    ],
+    [
+      2158,
+      6100022279,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "PSYC 2",
+      2
+    ],
+    [
+      2158,
+      6100004330,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "PHIL 4",
+      2
+    ],
+    [
+      2158,
+      6100027558,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "FORL 21",
+      2
+    ],
+    [
+      2158,
+      6100015780,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 4",
+      2
+    ],
+    [
+      2158,
+      6100023242,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "SPAN 1B",
+      2
+    ],
+    [
+      2158,
+      6100018747,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "BIO 20",
+      2
+    ],
+    [
+      2158,
+      6100008494,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ART 2",
+      2
+    ],
+    [
+      2158,
+      6100011955,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ART 2",
+      2
+    ],
+    [
+      2158,
+      6100000673,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "SPAN 1B",
+      2
+    ],
+    [
+      2158,
+      6100019848,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "AERO 1A",
+      2
+    ],
+    [
+      2158,
+      6100026047,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "AERO 1A",
+      2
+    ],
+    [
+      2158,
+      6100007870,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "PHIL 26",
+      2
+    ],
+    [
+      2158,
+      6100007545,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "PHIL 26",
+      2
+    ],
+    [
+      2158,
+      6100008234,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "BIO 20",
+      2
+    ],
+    [
+      2158,
+      6100028188,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ANTH 2",
+      2
+    ],
+    [
+      2158,
+      6100009091,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 8",
+      2
+    ],
+    [
+      2158,
+      6100026131,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ANTH 2",
+      2
+    ],
+    [
+      2158,
+      6100000664,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MGMT 10",
+      2
+    ],
+    [
+      2158,
+      6100009848,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 8",
+      2
+    ],
+    [
+      2158,
+      6100027935,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MGMT 10",
+      2
+    ],
+    [
+      2158,
+      6100002599,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ETHN 53",
+      3
+    ],
+    [
+      2158,
+      6100000625,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "THEA 9",
+      3
+    ],
+    [
+      2158,
+      6100015111,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "THEA 9",
+      3
+    ],
+    [
+      2158,
+      6100022279,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "THEA 9",
+      3
+    ],
+    [
+      2158,
+      6100002264,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 53",
+      3
+    ],
+    [
+      2158,
+      6100000625,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGL 3M",
+      3
+    ],
+    [
+      2158,
+      6100000664,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "INTD 15",
+      3
+    ],
+    [
+      2158,
+      6100022201,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MUSC 18",
+      3
+    ],
+    [
+      2158,
+      6100023242,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MUSC 18",
+      3
+    ],
+    [
+      2158,
+      6100025184,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MUSC 18",
+      3
+    ],
+    [
+      2158,
+      6100007455,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HRS 10",
+      3
+    ],
+    [
+      2158,
+      6100011955,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HRS 10",
+      3
+    ],
+    [
+      2158,
+      6100026047,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HRS 10",
+      3
+    ],
+    [
+      2158,
+      6100015091,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 45",
+      3
+    ],
+    [
+      2158,
+      6100002223,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ETHN 53",
+      3
+    ],
+    [
+      2158,
+      6100010273,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "INTD 15",
+      3
+    ],
+    [
+      2158,
+      6100015111,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 50",
+      3
+    ],
+    [
+      2158,
+      6100019426,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 50",
+      3
+    ],
+    [
+      2158,
+      6100016831,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 3M",
+      3
+    ],
+    [
+      2158,
+      6100020958,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 3M",
+      3
+    ],
+    [
+      2158,
+      6100027558,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CRJ 1",
+      3
+    ],
+    [
+      2158,
+      6100012665,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CRJ 1",
+      3
+    ],
+    [
+      2158,
+      6100005590,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "CRJ 1",
+      3
+    ],
+    [
+      2158,
+      6100028188,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 50",
+      3
+    ],
+    [
+      2158,
+      6100007545,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 45",
+      3
+    ],
+    [
+      2158,
+      6100029167,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HONR 1",
+      3
+    ],
+    [
+      2158,
+      6100007796,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 45",
+      3
+    ],
+    [
+      2158,
+      6100000140,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HONR 1",
+      3
+    ],
+    [
+      2158,
+      6100029167,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 50H",
+      3
+    ],
+    [
+      2158,
+      6100007071,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 50H",
+      3
+    ],
+    [
+      2158,
+      6100000140,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 50H",
+      3
+    ],
+    [
+      2158,
+      6100017994,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 1A",
+      3
+    ],
+    [
+      2158,
+      6100016831,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 1A",
+      3
+    ],
+    [
+      2158,
+      6100002291,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 1A",
+      3
+    ],
+    [
+      2158,
+      6100029814,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "INTD 15",
+      3
+    ],
+    [
+      2158,
+      6100007071,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HONR 1",
+      3
+    ],
+    [
+      2158,
+      6100019520,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "NSM 21",
+      4
+    ],
+    [
+      2158,
+      6100001636,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "PHYS 11A",
+      4
+    ],
+    [
+      2158,
+      6100010334,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "PHYS 11A",
+      4
+    ],
+    [
+      2158,
+      6100016659,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "PHYS 11A",
+      4
+    ],
+    [
+      2158,
+      6100026834,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "PHYS 11A",
+      4
+    ],
+    [
+      2158,
+      6100013682,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "NSM 21",
+      4
+    ],
+    [
+      2158,
+      6100000491,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "NSM 21",
+      4
+    ],
+    [
+      2158,
+      6100029253,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "NSM 21",
+      4
+    ],
+    [
+      2158,
+      6100016793,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 51",
+      4
+    ],
+    [
+      2158,
+      6100006445,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 51",
+      4
+    ],
+    [
+      2158,
+      6100006645,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 51",
+      4
+    ],
+    [
+      2158,
+      6100011161,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 51",
+      4
+    ],
+    [
+      2158,
+      6100007455,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ANTH 3",
+      4
+    ],
+    [
+      2158,
+      6100022845,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ANTH 3",
+      4
+    ],
+    [
+      2158,
+      6100025036,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ANTH 3",
+      4
+    ],
+    [
+      2158,
+      6100029253,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 30L",
+      4
+    ],
+    [
+      2158,
+      6100017994,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 30L",
+      4
+    ],
+    [
+      2158,
+      6100005806,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 30L",
+      4
+    ],
+    [
+      2158,
+      6100003969,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 30L",
+      4
+    ],
+    [
+      2158,
+      6100029000,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ANTH 3",
+      4
+    ],
+    [
+      2158,
+      6100021135,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "BIO 10",
+      5
+    ],
+    [
+      2158,
+      6100025424,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "BIO 10",
+      5
+    ],
+    [
+      2158,
+      6100028400,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "BIO 10",
+      5
+    ],
+    [
+      2158,
+      6100029980,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 3",
+      5
+    ],
+    [
+      2158,
+      6100006445,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 14",
+      5
+    ],
+    [
+      2158,
+      6100008048,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 14",
+      5
+    ],
+    [
+      2158,
+      6100028221,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 6",
+      5
+    ],
+    [
+      2158,
+      6100026047,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 6",
+      5
+    ],
+    [
+      2158,
+      6100019848,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 6",
+      5
+    ],
+    [
+      2158,
+      6100007796,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 6",
+      5
+    ],
+    [
+      2158,
+      6100021214,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 14",
+      5
+    ],
+    [
+      2158,
+      6100029814,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "CHEM 4",
+      5
+    ],
+    [
+      2158,
+      6100013254,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 6",
+      5
+    ],
+    [
+      2158,
+      6100019520,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "CHEM 4",
+      5
+    ],
+    [
+      2158,
+      6100029980,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ETHN 14",
+      5
+    ],
+    [
+      2158,
+      6100024812,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ETHN 14",
+      5
+    ],
+    [
+      2158,
+      6100001715,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENVS 21",
+      5
+    ],
+    [
+      2158,
+      6100000016,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "BIO 10",
+      5
+    ],
+    [
+      2158,
+      6100029253,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "CHEM 4",
+      5
+    ],
+    [
+      2158,
+      6100008650,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENVS 21",
+      5
+    ],
+    [
+      2158,
+      6100024812,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENVS 21",
+      5
+    ],
+    [
+      2158,
+      6100026834,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENVS 21",
+      5
+    ],
+    [
+      2158,
+      6100010277,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENVS 21",
+      5
+    ],
+    [
+      2158,
+      6100002291,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGL 3",
+      5
+    ],
+    [
+      2158,
+      6100011684,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGL 3",
+      5
+    ],
+    [
+      2158,
+      6100017994,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGL 3",
+      5
+    ],
+    [
+      2158,
+      6100021214,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGL 3",
+      5
+    ],
+    [
+      2158,
+      6100000491,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "CHEM 4",
+      5
+    ],
+    [
+      2158,
+      6100013682,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "CHEM 4",
+      5
+    ],
+    [
+      2158,
+      6100004337,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "BIO 10",
+      5
+    ],
+    [
+      2158,
+      6100026047,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 9",
+      6
+    ],
+    [
+      2158,
+      6100029980,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ETHN 21",
+      6
+    ],
+    [
+      2158,
+      6100021214,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 21",
+      6
+    ],
+    [
+      2158,
+      6100028221,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 5M",
+      6
+    ],
+    [
+      2158,
+      6100029000,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 9",
+      6
+    ],
+    [
+      2158,
+      6100020958,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ETHN 21",
+      6
+    ],
+    [
+      2158,
+      6100020958,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 9",
+      6
+    ],
+    [
+      2158,
+      6100007796,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 21",
+      6
+    ],
+    [
+      2158,
+      6100006445,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 21",
+      6
+    ],
+    [
+      2158,
+      6100024792,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 9",
+      6
+    ],
+    [
+      2158,
+      6100003986,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 9",
+      6
+    ],
+    [
+      2158,
+      6100003861,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 9",
+      6
+    ],
+    [
+      2158,
+      6100026869,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 5M",
+      6
+    ],
+    [
+      2158,
+      6100008048,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 21",
+      6
+    ],
+    [
+      2158,
+      6100026131,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGL 5M",
+      6
+    ],
+    [
+      2158,
+      6100007870,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "EDUC 21",
+      6
+    ],
+    [
+      2158,
+      6100007545,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 5M",
+      6
+    ],
+    [
+      2158,
+      6100007990,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "EDUC 21",
+      6
+    ],
+    [
+      2158,
+      6100018416,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "EDUC 21",
+      6
+    ],
+    [
+      2158,
+      6100024812,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "PHIL 6",
+      6
+    ],
+    [
+      2158,
+      6100024485,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "PHIL 6",
+      6
+    ],
+    [
+      2158,
+      6100021834,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "PHIL 6",
+      6
+    ],
+    [
+      2158,
+      6100017727,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "PHIL 6",
+      6
+    ],
+    [
+      2158,
+      6100009008,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "PHIL 6",
+      6
+    ],
+    [
+      2158,
+      6100002223,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "PHIL 6",
+      6
+    ],
+    [
+      2158,
+      6100026458,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "EDUC 21",
+      6
+    ],
+    [
+      2158,
+      6100000491,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "GOVT 1",
+      6
+    ],
+    [
+      2158,
+      6100004337,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "GOVT 1",
+      6
+    ],
+    [
+      2158,
+      6100004925,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "GOVT 1",
+      6
+    ],
+    [
+      2158,
+      6100007545,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "GOVT 1",
+      6
+    ],
+    [
+      2158,
+      6100015438,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "GOVT 1",
+      6
+    ],
+    [
+      2158,
+      6100022201,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "GOVT 1",
+      6
+    ],
+    [
+      2158,
+      6100000453,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "EDUC 21",
+      6
+    ],
+    [
+      2158,
+      6100003986,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 5M",
+      6
+    ],
+    [
+      2158,
+      6100021834,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGL 10M",
+      6
+    ],
+    [
+      2158,
+      6100020958,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 10M",
+      6
+    ],
+    [
+      2158,
+      6100016831,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 10M",
+      6
+    ],
+    [
+      2158,
+      6100007990,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 10M",
+      6
+    ],
+    [
+      2158,
+      6100006814,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 10M",
+      6
+    ],
+    [
+      2158,
+      6100000625,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGL 10M",
+      6
+    ],
+    [
+      2158,
+      6100008663,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 5M",
+      6
+    ],
+    [
+      2158,
+      6100016793,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "EDUC 21",
+      6
+    ],
+    [
+      2158,
+      6100028279,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "CHEM 1E",
+      7
+    ],
+    [
+      2158,
+      6100029980,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ALS 79A",
+      7
+    ],
+    [
+      2158,
+      6100021214,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ALS 79A",
+      7
+    ],
+    [
+      2158,
+      6100020958,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ALS 79A",
+      7
+    ],
+    [
+      2158,
+      6100016831,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ALS 79A",
+      7
+    ],
+    [
+      2158,
+      6100011684,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ALS 79A",
+      7
+    ],
+    [
+      2158,
+      6100002291,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ALS 79A",
+      7
+    ],
+    [
+      2158,
+      6100000625,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ALS 79A",
+      7
+    ],
+    [
+      2158,
+      6100010334,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "CHEM 1E",
+      7
+    ],
+    [
+      2158,
+      6100018177,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "CHEM 1E",
+      7
+    ],
+    [
+      2158,
+      6100019312,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "CHEM 1E",
+      7
+    ],
+    [
+      2158,
+      6100022201,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "CHEM 1E",
+      7
+    ],
+    [
+      2158,
+      6100028400,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "CHEM 1E",
+      7
+    ],
+    [
+      2158,
+      6100003531,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "CHEM 1E",
+      7
+    ],
+    [
+      2158,
+      6100006645,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 31",
+      8
+    ],
+    [
+      2158,
+      6100000140,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 31",
+      8
+    ],
+    [
+      2158,
+      6100003053,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ECON 1B",
+      8
+    ],
+    [
+      2158,
+      6100001869,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ECON 1B",
+      8
+    ],
+    [
+      2158,
+      6100007071,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 31",
+      8
+    ],
+    [
+      2158,
+      6100007829,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ECON 1B",
+      8
+    ],
+    [
+      2158,
+      6100009848,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ECON 1B",
+      8
+    ],
+    [
+      2158,
+      6100010498,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ECON 1B",
+      8
+    ],
+    [
+      2158,
+      6100015156,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ECON 1B",
+      8
+    ],
+    [
+      2158,
+      6100016248,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ECON 1B",
+      8
+    ],
+    [
+      2158,
+      6100001690,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ECON 1B",
+      8
+    ],
+    [
+      2158,
+      6100007455,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 31",
+      8
+    ],
+    [
+      2158,
+      6100001636,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 31",
+      8
+    ],
+    [
+      2158,
+      6100015438,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 31",
+      8
+    ],
+    [
+      2158,
+      6100007990,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MLSK 7A",
+      8
+    ],
+    [
+      2158,
+      6100017994,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ALS 70A",
+      8
+    ],
+    [
+      2158,
+      6100020958,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ALS 70A",
+      8
+    ],
+    [
+      2158,
+      6100021214,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ALS 70A",
+      8
+    ],
+    [
+      2158,
+      6100008234,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 31",
+      8
+    ],
+    [
+      2158,
+      6100029980,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ALS 70A",
+      8
+    ],
+    [
+      2158,
+      6100006445,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MLSK 7A",
+      8
+    ],
+    [
+      2158,
+      6100010838,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MLSK 7A",
+      8
+    ],
+    [
+      2158,
+      6100021834,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MLSK 7A",
+      8
+    ],
+    [
+      2158,
+      6100022845,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MLSK 7A",
+      8
+    ],
+    [
+      2158,
+      6100016831,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ALS 70A",
+      8
+    ],
+    [
+      2158,
+      6100029980,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MLSK 7A",
+      8
+    ],
+    [
+      2158,
+      6100016659,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 31",
+      8
+    ],
+    [
+      2158,
+      6100000625,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ALS 70A",
+      8
+    ],
+    [
+      2158,
+      6100002291,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ALS 70A",
+      8
+    ],
+    [
+      2158,
+      6100025424,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MLSK 7A",
+      8
+    ],
+    [
+      2158,
+      6100026174,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MLSK 7A",
+      8
+    ],
+    [
+      2158,
+      6100011684,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ALS 70A",
+      8
+    ],
+    [
+      2158,
+      6100002291,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 11",
+      9
+    ],
+    [
+      2158,
+      6100006814,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ETHN 11",
+      9
+    ],
+    [
+      2158,
+      6100007537,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 11",
+      9
+    ],
+    [
+      2158,
+      6100008494,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 11",
+      9
+    ],
+    [
+      2158,
+      6100008234,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 11",
+      9
+    ],
+    [
+      2158,
+      6100017994,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 11",
+      9
+    ],
+    [
+      2158,
+      6100021834,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 11",
+      9
+    ],
+    [
+      2158,
+      6100011684,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ETHN 11",
+      9
+    ],
+    [
+      2158,
+      6100020958,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ETHN 11",
+      9
+    ],
+    [
+      2158,
+      6100027776,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 1X",
+      10
+    ],
+    [
+      2158,
+      6100027387,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 1X",
+      10
+    ],
+    [
+      2158,
+      6100004948,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 1X",
+      10
+    ],
+    [
+      2158,
+      6100017994,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGL 1X",
+      10
+    ],
+    [
+      2158,
+      6100000596,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGL 1X",
+      10
+    ],
+    [
+      2158,
+      6100015156,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 1X",
+      10
+    ],
+    [
+      2158,
+      6100011161,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 1X",
+      10
+    ],
+    [
+      2158,
+      6100001715,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 1X",
+      10
+    ],
+    [
+      2158,
+      6100007545,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 1X",
+      10
+    ],
+    [
+      2158,
+      6100027381,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGL 1X",
+      10
+    ],
+    [
+      2158,
+      6100004883,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "PHIL 2",
+      11
+    ],
+    [
+      2158,
+      6100002751,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "PHIL 2",
+      11
+    ],
+    [
+      2158,
+      6100029000,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MUSC 8",
+      11
+    ],
+    [
+      2158,
+      6100028805,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MUSC 8",
+      11
+    ],
+    [
+      2158,
+      6100026834,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MUSC 8",
+      11
+    ],
+    [
+      2158,
+      6100022306,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MUSC 8",
+      11
+    ],
+    [
+      2158,
+      6100009538,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MUSC 8",
+      11
+    ],
+    [
+      2158,
+      6100001867,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MUSC 8",
+      11
+    ],
+    [
+      2158,
+      6100001742,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MUSC 8",
+      11
+    ],
+    [
+      2158,
+      6100001091,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MUSC 8",
+      11
+    ],
+    [
+      2158,
+      6100002235,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "PHIL 2",
+      11
+    ],
+    [
+      2158,
+      6100000453,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MUSC 8",
+      11
+    ],
+    [
+      2158,
+      6100026174,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "PHIL 2",
+      11
+    ],
+    [
+      2158,
+      6100022279,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "PHIL 2",
+      11
+    ],
+    [
+      2158,
+      6100015438,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "PHIL 2",
+      11
+    ],
+    [
+      2158,
+      6100014816,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "PHIL 2",
+      11
+    ],
+    [
+      2158,
+      6100008616,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "PHIL 2",
+      11
+    ],
+    [
+      2158,
+      6100005806,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "PHIL 2",
+      11
+    ],
+    [
+      2158,
+      6100005197,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "PHIL 2",
+      11
+    ],
+    [
+      2158,
+      6100002812,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "PHIL 2",
+      11
+    ],
+    [
+      2158,
+      6100000449,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MUSC 8",
+      11
+    ],
+    [
+      2158,
+      6100008202,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MUSC 8",
+      11
+    ],
+    [
+      2158,
+      6100000016,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ART 7",
+      11
+    ],
+    [
+      2158,
+      6100020454,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ART 7",
+      11
+    ],
+    [
+      2158,
+      6100000673,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ART 7",
+      11
+    ],
+    [
+      2158,
+      6100003861,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ART 7",
+      11
+    ],
+    [
+      2158,
+      6100005502,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ART 7",
+      11
+    ],
+    [
+      2158,
+      6100005898,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ART 7",
+      11
+    ],
+    [
+      2158,
+      6100007092,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ART 7",
+      11
+    ],
+    [
+      2158,
+      6100011031,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ART 7",
+      11
+    ],
+    [
+      2158,
+      6100018177,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ART 7",
+      11
+    ],
+    [
+      2158,
+      6100020349,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ART 7",
+      11
+    ],
+    [
+      2158,
+      6100028221,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ART 7",
+      11
+    ],
+    [
+      2158,
+      6100002235,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ANTH 1",
+      15
+    ],
+    [
+      2158,
+      6100000449,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ANTH 1",
+      15
+    ],
+    [
+      2158,
+      6100029167,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12E",
+      15
+    ],
+    [
+      2158,
+      6100003531,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ANTH 1",
+      15
+    ],
+    [
+      2158,
+      6100027387,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12E",
+      15
+    ],
+    [
+      2158,
+      6100018177,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "NSM 12E",
+      15
+    ],
+    [
+      2158,
+      6100003973,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ANTH 1",
+      15
+    ],
+    [
+      2158,
+      6100027776,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12E",
+      15
+    ],
+    [
+      2158,
+      6100005197,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ANTH 1",
+      15
+    ],
+    [
+      2158,
+      6100017727,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ANTH 1",
+      15
+    ],
+    [
+      2158,
+      6100007990,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ANTH 1",
+      15
+    ],
+    [
+      2158,
+      6100011469,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ANTH 1",
+      15
+    ],
+    [
+      2158,
+      6100011955,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ANTH 1",
+      15
+    ],
+    [
+      2158,
+      6100026131,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "NSM 12E",
+      15
+    ],
+    [
+      2158,
+      6100018177,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ANTH 1",
+      15
+    ],
+    [
+      2158,
+      6100023242,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ANTH 1",
+      15
+    ],
+    [
+      2158,
+      6100025036,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ANTH 1",
+      15
+    ],
+    [
+      2158,
+      6100006645,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ANTH 1",
+      15
+    ],
+    [
+      2158,
+      6100026869,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12E",
+      15
+    ],
+    [
+      2158,
+      6100028279,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ANTH 1",
+      15
+    ],
+    [
+      2158,
+      6100008616,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12E",
+      15
+    ],
+    [
+      2158,
+      6100027558,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ANTH 1",
+      15
+    ],
+    [
+      2158,
+      6100000356,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12E",
+      15
+    ],
+    [
+      2158,
+      6100015156,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12E",
+      15
+    ],
+    [
+      2158,
+      6100009091,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12E",
+      15
+    ],
+    [
+      2158,
+      6100000449,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12E",
+      15
+    ],
+    [
+      2158,
+      6100008663,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12E",
+      15
+    ],
+    [
+      2158,
+      6100002235,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "NSM 12E",
+      15
+    ],
+    [
+      2158,
+      6100004948,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12E",
+      15
+    ],
+    [
+      2158,
+      6100004337,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "NSM 12E",
+      15
+    ],
+    [
+      2158,
+      6100003973,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "NSM 12B",
+      16
+    ],
+    [
+      2158,
+      6100004883,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12B",
+      16
+    ],
+    [
+      2158,
+      6100006681,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12B",
+      16
+    ],
+    [
+      2158,
+      6100014816,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "NSM 12B",
+      16
+    ],
+    [
+      2158,
+      6100028805,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12B",
+      16
+    ],
+    [
+      2158,
+      6100007621,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12B",
+      16
+    ],
+    [
+      2158,
+      6100008270,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12B",
+      16
+    ],
+    [
+      2158,
+      6100011469,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "NSM 12B",
+      16
+    ],
+    [
+      2158,
+      6100012665,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12B",
+      16
+    ],
+    [
+      2158,
+      6100016248,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12B",
+      16
+    ],
+    [
+      2158,
+      6100010316,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12B",
+      16
+    ],
+    [
+      2158,
+      6100001690,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12B",
+      16
+    ],
+    [
+      2158,
+      6100028223,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "NSM 12B",
+      16
+    ],
+    [
+      2158,
+      6100028188,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "NSM 12B",
+      16
+    ],
+    [
+      2158,
+      6100019520,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "NSM 12B",
+      16
+    ],
+    [
+      2158,
+      6100000016,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "NSM 12B",
+      16
+    ],
+    [
+      2158,
+      6100009443,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100029430,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100025400,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100021214,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100021135,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100021074,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100019848,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100018416,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100017727,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100013254,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100011684,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100011031,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100010326,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100000491,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100000596,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100000625,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100001869,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100002751,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100005590,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100015780,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100010273,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MLSK 10A",
+      21
+    ],
+    [
+      2158,
+      6100007455,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100028805,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100000016,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100001690,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100002264,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100003973,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100004883,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100006681,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100007621,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100008270,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100010277,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100010316,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100011469,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100011955,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100012665,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100014816,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100016248,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100017517,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100019520,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100022306,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100027381,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100028188,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100028221,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100028223,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100028400,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100029244,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "MATH 29",
+      25
+    ],
+    [
+      2158,
+      6100006681,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100015091,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100029244,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100002751,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100003053,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100005197,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100007537,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100007856,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100008663,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100010273,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100010316,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100010498,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100002599,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100015111,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100020349,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100021074,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100025036,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100025400,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100026174,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100026869,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100027381,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100027558,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100027776,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100017517,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100002291,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100003531,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100001715,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100007621,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100007829,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100009443,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100010277,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100010326,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100011031,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100000453,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17A",
+      25
+    ],
+    [
+      2158,
+      6100005898,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100017517,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100020349,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100020883,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100012665,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100024792,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100024558,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100002223,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100002599,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100002812,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100001867,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100003861,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100004330,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100025400,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100003053,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "CSC 10A",
+      25
+    ],
+    [
+      2158,
+      6100002235,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100028117,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100027776,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100021214,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100000449,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100000625,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100000673,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100001742,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100001869,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100003531,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100005502,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100004948,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100007870,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100008494,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100010326,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100011161,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100015091,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100015780,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100016659,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100018747,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100008663,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100020958,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100021135,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100007829,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100007092,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100006645,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100005898,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100004330,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100019426,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 5",
+      29
+    ],
+    [
+      2158,
+      6100006445,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100005590,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100004925,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100004337,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100002812,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100002223,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100002291,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100002264,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100001636,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100000356,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100006814,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100002599,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100007537,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100003969,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100008048,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100029430,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100029000,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100028223,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100028188,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100027935,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100007856,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100026458,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100026047,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100024792,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100024485,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100022845,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100022279,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100026834,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100021243,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100008202,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100009848,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100010273,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100013682,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100015438,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100010498,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100016831,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100017994,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100020454,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100016248,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "COMS 4",
+      39
+    ],
+    [
+      2158,
+      6100010838,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100007829,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100002264,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100009538,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100008270,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100008202,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100008048,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100007621,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100004883,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100006814,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100006681,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100005502,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100004925,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100002812,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100004330,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100011161,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100003973,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100007092,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100011684,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100011031,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100015091,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100000673,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100000596,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100001091,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100028279,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100028117,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100026458,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100026131,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100026047,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100025424,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100025184,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100013254,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100001636,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100015780,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100016659,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100017769,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100019312,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100019848,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100020454,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100021243,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100024558,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "HIST 17B",
+      41
+    ],
+    [
+      2158,
+      6100028400,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100003861,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100003973,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100004337,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100004883,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100007829,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100005806,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100006645,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100007545,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100003053,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100005590,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100002264,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100001715,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100001867,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100001742,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100008234,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100001690,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100001636,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100000596,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100000449,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100000016,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100029253,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100029814,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100002235,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100028805,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100008270,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100008663,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100028279,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100028223,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100027381,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100026174,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100025424,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100024558,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100024485,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100022845,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100022201,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100021243,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100021135,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100020883,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100019520,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100019312,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100008650,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100017517,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100016248,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100015156,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100014816,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100013682,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100012665,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100011469,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100011161,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100010498,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100010316,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100029167,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100009848,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100009538,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100009443,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100009008,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100016659,
+      "Electrical & Electronic Engr",
+      "EENGNONEBS",
+      "Electrical & Electronic Eng BS",
+      "ENGR 96A",
+      59
+    ],
+    [
+      2158,
+      6100010277,
+      "Electrical & Electronic Engr",
+      "CMPENONEBS",
+      "Computer Engineering BS",
+      "ENGR 96A",
+      59
+    ]
+  ]
+}

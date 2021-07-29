@@ -25,8 +25,10 @@
     <link href="../assets/demo/demo.css" rel="stylesheet" />
     <link rel="stylesheet" href="/black-dashboard-master/black-dashboard-html-v1.0.0/assets/css/black-dashboard.css">
 
-    <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="./chartsjs/utils.js"></script>
+    <script src="./chartsjs/association_Analysis_frequent_itemset.js"></script>
+ 
+  
 </head>
 
 <body class=" ">
@@ -143,10 +145,9 @@
                     <div class="collapse navbar-collapse" id="navigation">
                         <ul class="navbar-nav ml-auto ">
                             <div class="search-bar input-group">
-                                <!-- <input type="text" class="form-control" placeholder="Se
                                 <button class="btn btn-link" id="search-button" data-toggle="modal"
                                     data-target="#searchModal"><i class="tim-icons icon-zoom-split"></i></button>
-                                You can choose types of search input -->
+                                <!-- You can choose types of search input -->
                             </div>
                             <li class="dropdown nav-item">
                                 <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
@@ -225,20 +226,38 @@
                             <div class="card-header ">
                                 <div class="row">
                                     <div class="col-sm-6 text-left">
-                                        <!-- <h5 class="card-category">Total Shipments</h5>  -->
-                                        <!-- <h2 class="card-title">Performance</h2> -->
+
                                     </div>
                                     <div class="col-sm-6">
                                     </div>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <div class="chart-area">
-                                    <!-- <canvas id="myChart5"></canvas> -->
-                                    <div id="followers_vs_non_followers_butterfly_chart"data-json='{"label": ["RoadMap Followers", "Non-RoadMap Followers"], "data": [{"chart_seats": [1951, 18078], "department": "Civil Engineering"}, {"chart_seats": [1332, 18697], "department": "Computer Science"}, {"chart_seats": [2626, 17403], "department": "construction"}, {"chart_seats": [1400, 18629], "department": "Electrical & Electronic Engr"}, {"chart_seats": [3755, 16274], "department": "computer engineering"}, {"chart_seats": [1672, 18357], "department": "Mechanical Engineering"}]}'
-                                        style="min-width: 310px; max-width: 800px; height: 500px; margin: 0 auto"></div>
+                                <div class="table-responsive">
+                                  <table class="table tablesorter " id="table_set">
+                                    <thead class=" text-primary">
+                                      <th>
+                                        Support
+
+                                      </th>
+                                      <th>
+                                        Itemset
+                                      </th>
+                                    </thead>
+                                    <tbody id="table_body">
+                                      <tr>
+                                        <td>
+                                          Dakota Rice
+                                        </td>
+                                        <td>
+                                          Niger
+                                        </td>
+                                      </tr>
+                                      
+                                    </tbody>
+                                  </table>
                                 </div>
-                            </div>
+                              </div>
                         </div>
                     </div>
                   
@@ -335,196 +354,9 @@
     <!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="../assets/js/black-dashboard.min.js?v=1.0.0" type="text/javascript"></script>
     <!-- Black Dashboard DEMO methods, don't include it in your project! -->
-    <script src="butterfly.js"></script>
     <script src="../assets/demo/demo.js"></script>
-
-    <script src="app.js"></script>
-    <script>
-
-        // Data gathered from http://populationpyramid.net/germany/2015/
-        $(function () {
-            // Age categories
-            var categories = ['Civil Engineering', 'Computer Science', 'Construction', 'Electric & Electronic Engr', 'Computer Engineering', 'Mechanical Engineering']
-            $(document).ready(function () {
-                Highcharts.chart('followers_vs_non_followers_butterfly_chart', {
-                    chart: {
-                        type: 'bar'
-                    },
-                    title: {
-                        text: 'Overall roadmap'
-                    },
-                    subtitle: {
-                        // text: 'Source: <a href="http://populationpyramid.net/germany/2015/">Population Pyramids of the World from 1950 to 2100</a>'
-                    },
-                    xAxis: [{
-                        categories: categories,
-                        reversed: false,
-                        labels: {
-                            step: 1
-                        }
-                    }, /*{ // mirror axis on right side
-                opposite: true,
-                reversed: false,
-                categories: categories,
-                linkedTo: 0,
-                labels: {
-                    step: 1
-                }
-            }*/],
-                    yAxis: {
-                        // categories: ['G7', 'A8', 'V9', 'V4', 'V3', 'V1', 'V5'],
-                        title: {
-                            text: null
-                        },
-                        labels: {
-                            formatter: function () {
-                                return Math.abs(this.value) + '%';
-                            }
-                        }
-                    },
-    
-                    plotOptions: {
-                        series: {
-                            stacking: 'normal'
-                        }
-                    },
-    
-                    tooltip: {
-                        formatter: function () {
-                            return '<b>' + this.series.name + ', Roadmap Followers ' + this.point.category + '</b><br/>' +
-                                'department: ' + Highcharts.numberFormat(Math.abs(this.point.y), 0);
-                        }
-    
-                    },
-    
-                    series: [{
-                        name: 'RoadMap Followers',
-                        color: ' #005440',
-                        data: [-2.2, -2.2, -2.3, -2.5, -2.7, -3.1]
-    
-                    }, {
-                        name: '"Non-RoadMap Followers"',
-                        color: '#c5b783',
-                        data: [2.1, 2.0, 2.2, 2.4, 2.6, 3.0]
-    
-                    }]
-                });
-            });
-    
-        });
-    </script>
-
-    <script>
-        $(document).ready(function () {
-            $().ready(function () {
-                $sidebar = $('.sidebar');
-                $navbar = $('.navbar');
-
-                $full_page = $('.full-page');
-
-                $sidebar_responsive = $('body > .navbar-collapse');
-                sidebar_mini_active = true;
-                white_color = false;
-
-                window_width = $(window).width();
-
-                fixed_plugin_open = $('.sidebar .sidebar-wrapper .nav li.active a p').html();
-
-
-
-                $('.fixed-plugin a').click(function (event) {
-                    // Alex if we click on switch, stop propagation of the event, so the dropdown will not be hide, otherwise we set the  section active
-                    if ($(this).hasClass('switch-trigger')) {
-                        if (event.stopPropagation) {
-                            event.stopPropagation();
-                        } else if (window.event) {
-                            window.event.cancelBubble = true;
-                        }
-                    }
-                });
-
-                $('.fixed-plugin .background-color span').click(function () {
-                    $(this).siblings().removeClass('active');
-                    $(this).addClass('active');
-
-                    var new_color = $(this).data('color');
-
-                    if ($sidebar.length != 0) {
-                        $sidebar.attr('data-color', new_color);
-                    }
-
-                    if ($navbar.length != 0) {
-                        $navbar.attr('data-color', new_color);
-                    }
-
-                    if ($full_page.length != 0) {
-                        $full_page.attr('filter-color', new_color);
-                    }
-
-                    if ($sidebar_responsive.length != 0) {
-                        $sidebar_responsive.attr('data-color', new_color);
-                    }
-                });
-
-                $('.switch-sidebar-mini input').on("switchChange.bootstrapSwitch", function () {
-                    var $btn = $(this);
-
-                    if (sidebar_mini_active == true) {
-                        $('body').removeClass('sidebar-mini');
-                        sidebar_mini_active = false;
-                        blackDashboard.showSidebarMessage('Sidebar mini deactivated...');
-                    } else {
-                        $('body').addClass('sidebar-mini');
-                        sidebar_mini_active = true;
-                        blackDashboard.showSidebarMessage('Sidebar mini activated...');
-                    }
-
-                    // we simulate the window Resize so the charts will get updated in realtime.
-                    var simulateWindowResize = setInterval(function () {
-                        window.dispatchEvent(new Event('resize'));
-                    }, 180);
-
-                    // we stop the simulation of Window Resize after the animations are completed
-                    setTimeout(function () {
-                        clearInterval(simulateWindowResize);
-                    }, 1000);
-                });
-
-                $('.switch-change-color input').on("switchChange.bootstrapSwitch", function () {
-                    var $btn = $(this);
-
-                    if (white_color == true) {
-
-                        $('body').addClass('change-background');
-                        setTimeout(function () {
-                            $('body').removeClass('change-background');
-                            $('body').removeClass('white-content');
-                        }, 900);
-                        white_color = false;
-                    } else {
-
-                        $('body').addClass('change-background');
-                        setTimeout(function () {
-                            $('body').removeClass('change-background');
-                            $('body').addClass('white-content');
-                        }, 900);
-
-                        white_color = true;
-                    }
-
-
-                });
-
-                $('.light-badge').click(function () {
-                    $('body').addClass('white-content');
-                });
-
-                $('.dark-badge').click(function () {
-                    $('body').removeClass('white-content');
-                });
-            });
-        });
-    </script>
+  
+   
     <script>
         $(document).ready(function () {
             // Javascript method's body can be found in assets/js/demos.js

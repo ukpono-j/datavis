@@ -23,8 +23,14 @@
     <link href="../assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="../assets/demo/demo.css" rel="stylesheet" />
+   
     <link rel="stylesheet" href="/black-dashboard-master/black-dashboard-html-v1.0.0/assets/css/black-dashboard.css">
+   <!-- ========================== custom js ========================== -->
+    <script src="../examples/chartsjs/utils.js"></script>
+    <script src="./chartsjs/student_count_following_roadmap.js"></script>
 
+
+    <!-- ============================================================ -->
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
 </head>
@@ -143,10 +149,11 @@
                     <div class="collapse navbar-collapse" id="navigation">
                         <ul class="navbar-nav ml-auto ">
                             <div class="search-bar input-group">
-                                <!-- <input type="text" class="form-control" placeholder="Se
+                                <!-- <input type="text" class="form-control" placeholder="Search...">
+      <div class="input-group-addon"><i class="tim-icons icon-zoom-split"></i></div> -->
                                 <button class="btn btn-link" id="search-button" data-toggle="modal"
                                     data-target="#searchModal"><i class="tim-icons icon-zoom-split"></i></button>
-                                You can choose types of search input -->
+                                <!-- You can choose types of search input -->
                             </div>
                             <li class="dropdown nav-item">
                                 <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
@@ -216,9 +223,11 @@
                         </div>
                     </div>
                 </div>
+
             </div>
             <!-- End Navbar -->
             <div class="content">
+                
                 <div class="row">
                     <div class="col-12">
                         <div class="card card-chart">
@@ -234,10 +243,16 @@
                             </div>
                             <div class="card-body">
                                 <div class="chart-area">
+
+                                    <canvas id="student_count_following_roadmap_subject_histogram" data-json='{"columns":["TERM","PROXYID","DEPARTMENT","PLAN CODE","MAJOR","SUBJECT_NUMBER","COUNT"],"index":[151,149,148,147,150,58,57,56,55,40,41,42,43,45,46,47,48,49,50,51,52,44,53,54,126,146,145,144,143,142,141,140,139,138,137,136,135,134,127,133,131,130,129,116,117,118,119,120,121,122,128,124,125,132,123,0,38,19,20,39,22,23,24,25,18,26,28,29,30,31,32,33,34,27,17,21,16,37,36,1,35,3,4,5,6,2,8,9,10,11,12,13,14,15,7,107,108,109,110,114,112,113,115,111,106,103,104,78,77,76,74,73,72,71,70,69,68,67,66,65,64,63,62,61,60,59,79,80,81,82,102,101,100,99,98,97,96,95,94,105,93,91,90,89,88,87,86,85,84,83,92,75],"data":[[2158,6100026834,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENVS 10",5],[2158,6100010277,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENVS 10",5],[2158,6100008650,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENVS 10",5],[2158,6100001715,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENVS 10",5],[2158,6100024812,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENVS 10",5],[2158,6100029244,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100028805,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100028117,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100027387,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100000356,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100001091,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100001690,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100004925,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100006814,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100008616,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100008650,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100009091,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100010316,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100010498,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100016831,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100024485,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100004948,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100026869,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100027381,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","CSC 15",19],[2158,6100008650,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100029814,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","MATH 30",31],[2158,6100029253,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","MATH 30",31],[2158,6100029167,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100028279,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","MATH 30",31],[2158,6100027776,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100027387,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100026869,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100026131,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","MATH 30",31],[2158,6100024558,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100024485,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100022201,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","MATH 30",31],[2158,6100020883,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100019312,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","MATH 30",31],[2158,6100008663,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100018177,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","MATH 30",31],[2158,6100016831,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100015156,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100009538,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100000356,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100000449,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100002235,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","MATH 30",31],[2158,6100003969,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100004337,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","MATH 30",31],[2158,6100004948,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100005502,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","MATH 30",31],[2158,6100009091,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100007856,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100008616,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","MATH 30",31],[2158,6100017994,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","MATH 30",31],[2158,6100005806,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","MATH 30",31],[2158,6100000016,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 10",40],[2158,6100029253,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 10",40],[2158,6100009091,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100009443,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100029980,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100010316,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100010326,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100010498,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100010838,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 10",40],[2158,6100008616,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100011031,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100017517,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100017769,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100021243,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100022306,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 10",40],[2158,6100022845,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 10",40],[2158,6100025400,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100025424,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 10",40],[2158,6100012665,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100008270,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100009538,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100008202,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100029000,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100028117,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100000491,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 10",40],[2158,6100027558,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100000673,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 10",40],[2158,6100001091,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100001690,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100001869,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100000664,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100003053,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100003861,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100004330,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100004883,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100005502,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 10",40],[2158,6100006681,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100007092,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 10",40],[2158,6100007621,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100002812,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 10",40],[2158,6100025184,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100026174,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100027381,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100027387,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100028805,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100027935,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100028400,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100029814,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100027776,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100025036,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100023242,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100024792,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100008494,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100008234,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100007870,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100007796,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100005898,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100005806,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100005197,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100004948,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100003973,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100003969,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100002751,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100002599,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100002291,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100002264,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100002223,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100001715,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100000596,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100000453,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100000356,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100009008,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100010334,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100011161,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100011469,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100021214,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100021135,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100021074,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100020883,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100020454,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100020349,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100019848,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100019520,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100019312,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100024812,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100018416,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100017727,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100015780,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100015438,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100015156,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100015111,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100014816,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100013682,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100013254,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57],[2158,6100011684,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100017994,"Electrical & Electronic Engr","EENGNONEBS","Electrical & Electronic Eng BS","ENGL 5",57],[2158,6100007856,"Electrical & Electronic Engr","CMPENONEBS","Computer Engineering BS","ENGL 5",57]]}'></canvas>
                                     <!-- <canvas id="myChart5"></canvas> -->
-                                    <div id="followers_vs_non_followers_butterfly_chart"data-json='{"label": ["RoadMap Followers", "Non-RoadMap Followers"], "data": [{"chart_seats": [1951, 18078], "department": "Civil Engineering"}, {"chart_seats": [1332, 18697], "department": "Computer Science"}, {"chart_seats": [2626, 17403], "department": "construction"}, {"chart_seats": [1400, 18629], "department": "Electrical & Electronic Engr"}, {"chart_seats": [3755, 16274], "department": "computer engineering"}, {"chart_seats": [1672, 18357], "department": "Mechanical Engineering"}]}'
-                                        style="min-width: 310px; max-width: 800px; height: 500px; margin: 0 auto"></div>
+                                    <!-- <div id="followers_vs_non_followers_butterfly_chart"data-json='{"label": ["RoadMap Followers", "Non-RoadMap Followers"], "data": [{"chart_seats": [1951, 18078], "department": "Civil Engineering"}, {"chart_seats": [1332, 18697], "department": "Computer Science"}, {"chart_seats": [2626, 17403], "department": "construction"}, {"chart_seats": [1400, 18629], "department": "Electrical & Electronic Engr"}, {"chart_seats": [3755, 16274], "department": "computer engineering"}, {"chart_seats": [1672, 18357], "department": "Mechanical Engineering"}]}'
+                                      
+                                      
+                                        style="min-width: 310px; max-width: 800px; height: 500px; margin: 0 auto"></div> -->
                                 </div>
+
+
                             </div>
                         </div>
                     </div>
@@ -335,84 +350,10 @@
     <!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="../assets/js/black-dashboard.min.js?v=1.0.0" type="text/javascript"></script>
     <!-- Black Dashboard DEMO methods, don't include it in your project! -->
-    <script src="butterfly.js"></script>
+    <!-- <script src="butterfly.js"></script> -->
     <script src="../assets/demo/demo.js"></script>
 
-    <script src="app.js"></script>
-    <script>
-
-        // Data gathered from http://populationpyramid.net/germany/2015/
-        $(function () {
-            // Age categories
-            var categories = ['Civil Engineering', 'Computer Science', 'Construction', 'Electric & Electronic Engr', 'Computer Engineering', 'Mechanical Engineering']
-            $(document).ready(function () {
-                Highcharts.chart('followers_vs_non_followers_butterfly_chart', {
-                    chart: {
-                        type: 'bar'
-                    },
-                    title: {
-                        text: 'Overall roadmap'
-                    },
-                    subtitle: {
-                        // text: 'Source: <a href="http://populationpyramid.net/germany/2015/">Population Pyramids of the World from 1950 to 2100</a>'
-                    },
-                    xAxis: [{
-                        categories: categories,
-                        reversed: false,
-                        labels: {
-                            step: 1
-                        }
-                    }, /*{ // mirror axis on right side
-                opposite: true,
-                reversed: false,
-                categories: categories,
-                linkedTo: 0,
-                labels: {
-                    step: 1
-                }
-            }*/],
-                    yAxis: {
-                        // categories: ['G7', 'A8', 'V9', 'V4', 'V3', 'V1', 'V5'],
-                        title: {
-                            text: null
-                        },
-                        labels: {
-                            formatter: function () {
-                                return Math.abs(this.value) + '%';
-                            }
-                        }
-                    },
-    
-                    plotOptions: {
-                        series: {
-                            stacking: 'normal'
-                        }
-                    },
-    
-                    tooltip: {
-                        formatter: function () {
-                            return '<b>' + this.series.name + ', Roadmap Followers ' + this.point.category + '</b><br/>' +
-                                'department: ' + Highcharts.numberFormat(Math.abs(this.point.y), 0);
-                        }
-    
-                    },
-    
-                    series: [{
-                        name: 'RoadMap Followers',
-                        color: ' #005440',
-                        data: [-2.2, -2.2, -2.3, -2.5, -2.7, -3.1]
-    
-                    }, {
-                        name: '"Non-RoadMap Followers"',
-                        color: '#c5b783',
-                        data: [2.1, 2.0, 2.2, 2.4, 2.6, 3.0]
-    
-                    }]
-                });
-            });
-    
-        });
-    </script>
+  
 
     <script>
         $(document).ready(function () {

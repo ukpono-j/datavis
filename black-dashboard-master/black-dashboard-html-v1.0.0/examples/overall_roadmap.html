@@ -25,8 +25,10 @@
     <link href="../assets/demo/demo.css" rel="stylesheet" />
     <link rel="stylesheet" href="/black-dashboard-master/black-dashboard-html-v1.0.0/assets/css/black-dashboard.css">
 
-    <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="./chartsjs/utils.js"></script>
+    <script src="./chartsjs/overall_roadmap_students.js"></script>
+ 
+  
 </head>
 
 <body class=" ">
@@ -143,11 +145,27 @@
                     <div class="collapse navbar-collapse" id="navigation">
                         <ul class="navbar-nav ml-auto ">
                             <div class="search-bar input-group">
-                                <!-- <input type="text" class="form-control" placeholder="Se
+                                <!-- <input type="text" class="form-control" placeholder="Search...">
+      <div class="input-group-addon"><i class="tim-icons icon-zoom-split"></i></div> -->
                                 <button class="btn btn-link" id="search-button" data-toggle="modal"
                                     data-target="#searchModal"><i class="tim-icons icon-zoom-split"></i></button>
-                                You can choose types of search input -->
+                                <!-- You can choose types of search input -->
                             </div>
+                            <!-- <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="SEARCH">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <i class="tim-icons icon-simple-remove"></i>
+          </button>
+        </div>
+
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div> -->
                             <li class="dropdown nav-item">
                                 <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                                     <div class="notification d-none d-lg-block d-xl-block"></div>
@@ -234,9 +252,10 @@
                             </div>
                             <div class="card-body">
                                 <div class="chart-area">
-                                    <!-- <canvas id="myChart5"></canvas> -->
-                                    <div id="followers_vs_non_followers_butterfly_chart"data-json='{"label": ["RoadMap Followers", "Non-RoadMap Followers"], "data": [{"chart_seats": [1951, 18078], "department": "Civil Engineering"}, {"chart_seats": [1332, 18697], "department": "Computer Science"}, {"chart_seats": [2626, 17403], "department": "construction"}, {"chart_seats": [1400, 18629], "department": "Electrical & Electronic Engr"}, {"chart_seats": [3755, 16274], "department": "computer engineering"}, {"chart_seats": [1672, 18357], "department": "Mechanical Engineering"}]}'
-                                        style="min-width: 310px; max-width: 800px; height: 500px; margin: 0 auto"></div>
+                                    <h1>OVERALL ROAD MAP</h1>
+                                    <canvas id="overall_roadmap_student_histogram" width="400" height="400" data-json=''></canvas>
+                                    <!-- <canvas id="piechart_followers_vs_non_followers" data-json='{"chart_explode": [0.2, 0], "chart_seats": [6360, 13669], "chart_labels": ["RoadMap Followers", "Non-RoadMap Followers"], "colors": ["blue", "goldenrod"]}'></canvas></div> -->
+                                    <!-- <canvas id="overall_non_roadmap_student_histogram" data-json=''></canvas> -->
                                 </div>
                             </div>
                         </div>
@@ -335,85 +354,8 @@
     <!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="../assets/js/black-dashboard.min.js?v=1.0.0" type="text/javascript"></script>
     <!-- Black Dashboard DEMO methods, don't include it in your project! -->
-    <script src="butterfly.js"></script>
     <script src="../assets/demo/demo.js"></script>
-
-    <script src="app.js"></script>
-    <script>
-
-        // Data gathered from http://populationpyramid.net/germany/2015/
-        $(function () {
-            // Age categories
-            var categories = ['Civil Engineering', 'Computer Science', 'Construction', 'Electric & Electronic Engr', 'Computer Engineering', 'Mechanical Engineering']
-            $(document).ready(function () {
-                Highcharts.chart('followers_vs_non_followers_butterfly_chart', {
-                    chart: {
-                        type: 'bar'
-                    },
-                    title: {
-                        text: 'Overall roadmap'
-                    },
-                    subtitle: {
-                        // text: 'Source: <a href="http://populationpyramid.net/germany/2015/">Population Pyramids of the World from 1950 to 2100</a>'
-                    },
-                    xAxis: [{
-                        categories: categories,
-                        reversed: false,
-                        labels: {
-                            step: 1
-                        }
-                    }, /*{ // mirror axis on right side
-                opposite: true,
-                reversed: false,
-                categories: categories,
-                linkedTo: 0,
-                labels: {
-                    step: 1
-                }
-            }*/],
-                    yAxis: {
-                        // categories: ['G7', 'A8', 'V9', 'V4', 'V3', 'V1', 'V5'],
-                        title: {
-                            text: null
-                        },
-                        labels: {
-                            formatter: function () {
-                                return Math.abs(this.value) + '%';
-                            }
-                        }
-                    },
-    
-                    plotOptions: {
-                        series: {
-                            stacking: 'normal'
-                        }
-                    },
-    
-                    tooltip: {
-                        formatter: function () {
-                            return '<b>' + this.series.name + ', Roadmap Followers ' + this.point.category + '</b><br/>' +
-                                'department: ' + Highcharts.numberFormat(Math.abs(this.point.y), 0);
-                        }
-    
-                    },
-    
-                    series: [{
-                        name: 'RoadMap Followers',
-                        color: ' #005440',
-                        data: [-2.2, -2.2, -2.3, -2.5, -2.7, -3.1]
-    
-                    }, {
-                        name: '"Non-RoadMap Followers"',
-                        color: '#c5b783',
-                        data: [2.1, 2.0, 2.2, 2.4, 2.6, 3.0]
-    
-                    }]
-                });
-            });
-    
-        });
-    </script>
-
+  
     <script>
         $(document).ready(function () {
             $().ready(function () {

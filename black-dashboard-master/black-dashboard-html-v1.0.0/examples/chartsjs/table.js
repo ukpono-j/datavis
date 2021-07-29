@@ -21078,3 +21078,46 @@ let data = {
   let label = data.data.map((item, index)=> item[5])
   data = data.data.map((item, index)=> item[6])
   console.log({label, data})
+
+
+
+
+let piechart_followers_vs_non_followers = document.getElementById ('piechart_followers_vs_non_followers').getContext ('2d');
+
+let piechart_followers_vs_non_followers = new Chart (piechart_followers_vs_non_followers, {
+  type: 'bar',
+  data: {
+    labels: labels2,
+    datasets: [
+      {
+        label: labels2,
+        data: data2,
+        backgroundColor: colors2,
+      },
+    ],
+  },
+  options: {
+    title: {
+      display: true,
+      text: 'Students FOLLOWING Roadmap for Civil Engineering',
+    },
+    plugins: {
+      legend: {
+        display: true,
+        labels: {
+          // color: 'white',
+        },
+        position: 'right',
+      },
+    },
+
+    scales: {
+      yAxes: {
+        grid: {display: false},
+      },
+      x: {
+        grid: {display: false},
+      },
+    },
+  },
+});
